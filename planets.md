@@ -3,6 +3,7 @@
 <head>
 	<title>WAZAAA</title>
 </head>
+
 <body style="font-size: 40px">
 	<h1 style="text-align: center;">Daily Challenge !!</h1><br>
 	<p style="font-family: apple-chancery">
