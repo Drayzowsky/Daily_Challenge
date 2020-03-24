@@ -1,0 +1,28 @@
+
+
+body{
+	font-size: 20px;
+}
+
+h1{ 
+	background-color: blue;
+	color: yellow;
+	margin-top: 40px;
+	margin-bottom: 70px;
+	padding: 30px;
+	font-size: 50px
+
+}
+ol > li{
+	color: red;
+	font-weight: bold;
+}
+ul li{
+	color: green;
+	font-style: italic;
+}
+#title{
+	display: flex;
+	justify-content: center;
+	font-style: italic;
+	font-family: Arial;
