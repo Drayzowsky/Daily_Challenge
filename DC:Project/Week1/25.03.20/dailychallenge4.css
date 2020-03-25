@@ -1,0 +1,45 @@
+
+section{
+	border: 1px solid black;
+	margin: 50px;
+	padding: 1px;
+	width: 320px;
+	height: 320px;
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+	grid-template-rows: repeat(16, 1fr);
+}
+
+.container{
+	grid-gap: 2px 2px;
+}
+.orange{
+	background-color: #FF762C;
+}
+.beige{
+	background-color: #FAB27D;
+}	
+.brown{
+	background-color: #AA4D24;
+}
+.grey1{
+	background-color: #E1E1E1;
+}
+.grey2{
+	background-color: #909090;
+}
+.grey3{
+	background-color: #656565;
+}
+.black{
+	background-color: black;
+}
+.white{
+	background-color: white;
+}
+.pink{
+	background-color: #EB7070;
+}
+.red{
+	background-color: #E24242;
+}
