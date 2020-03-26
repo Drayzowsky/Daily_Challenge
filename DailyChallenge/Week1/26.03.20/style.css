@@ -1,0 +1,101 @@
+
+
+div{
+	width: 483px;
+	height: 298px;
+	background-color: #676470;
+	transition: all 3s ease;
+	text-align: center;
+	margin: auto;
+}
+h3{
+	font-size: 3em;
+	padding-top: 124px;
+}
+.fade{
+	opacity: 0.35;
+}
+.fade:hover{
+	opacity: 1;
+}
+.color:hover{
+	background-color: #53a7ea;
+}
+.grow:hover{
+	transform: scale(1.4);
+}
+.shrink:hover{
+	transform: scale(0.6);
+}
+.rotate:hover{
+	transform: rotateX(360deg);
+}
+.circle:hover{
+	border-radius: 50%;
+}
+.shadow:hover{
+	box-shadow: 3px 3px #53a7ea,
+				4px 4px #53a7ea,
+				5px 5px #53a7ea;
+	transform: translateX(15px);
+}
+@-webkit-keyframes swing
+{
+    15%
+    {
+    	transform: translateX(10px);
+    }
+    30%
+    {
+       transform: translateX(-10px);
+    } 
+    50%
+    {
+        transform: translateX(7px);
+    }
+    65%
+    {
+        transform: translateX(-7px);
+    }
+    80%
+    {
+        transform: translateX(4px);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        transform: translateX(10px);
+    }
+    30%
+    {
+        transform: translateX(-10px);
+    }
+    50%
+    {
+        transform: translateX(7px);
+    }
+    65%
+    {
+        transform: translateX(-7px);
+    }
+    80%
+    {
+        transform: translateX(4px);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+
+
+.swing:hover{
+    animation: swing 1s ease;
+    animation-iteration-count: infinite;
+}
