@@ -9,13 +9,15 @@
 			},
 			{	title: "Harry Potter and the Philosopher's Stone",
 				author: "J.K Rowling",
-				image:"https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone#/media/File:Harry_Potter_and_the_Philosopher's_Stone_Book_Cover.jpg",
+				image:"Harry Potter.png",
 				alreadyRead: false
 			}
 
 		];
 
-	function render {
+	render(allBooks);
+
+	function render(books) {
 		for(let i in allBooks) {		
 			let body= document.getElementsByTagName("body");
 			let table= document.createElement("table");
@@ -31,13 +33,14 @@
 
 			let image= document.createElement("img");
 			document.body.lastElementChild.appendChild(image);
-			image.style.width= 100;
+			image.style.width= "100px";
 			image.src= allBooks[i].image;
-			if(allBooks[i].alreadyRead= true) {
-				table.style.color= red;
-			}
+			if(allBooks[i].alreadyRead== true) {
+				table.style.color= "red";
+			};
 
 
 
 		};
+		
 	}
